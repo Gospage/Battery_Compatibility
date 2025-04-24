@@ -106,9 +106,9 @@
     let sortCol=null, sortDesc=false;
 
     Promise.all([
-      fetch('Data/compatibility.json').then(r=>r.json()),
-      fetch('Data/invParts.json').then(r=>r.json()),
-      fetch('Data/batParts.json').then(r=>r.json())
+      fetch('data/compatibility.json').then(r=>r.json()),
+      fetch('data/invParts.json').then(r=>r.json()),
+      fetch('data/batParts.json').then(r=>r.json())
     ]).then(([comp,invs,bats])=>{
       compatibility=comp;
       invParts=invs;
