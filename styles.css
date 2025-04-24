@@ -1,0 +1,209 @@
+/* styles.css */
+
+/* 1. Theme variables */
+:root {
+  --bg-color: #f5f5f7;
+  --card-bg: #ffffff;
+  --text-color: #1d1d1f;
+  --subtext-color: #6e6e73;
+  --primary: #0071e3;
+  --border: #d2d2d7;
+  --radius: 8px;
+  --spacing: 1rem;
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* 2. Base styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: var(--spacing);
+}
+
+/* 3. Headings */
+h1, h2, h3 {
+  margin-top: 0;
+  color: var(--text-color);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.5rem;
+  margin-bottom: var(--spacing);
+}
+
+h3 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+}
+
+/* 4. Sections as “cards” */
+.section {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--spacing);
+  margin-bottom: var(--spacing);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* 5. Form controls */
+label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+  color: var(--subtext-color);
+}
+
+select,
+input[type="number"] {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 1rem;
+  font-family: var(--font-family);
+  margin-bottom: var(--spacing);
+  background-color: #fff;
+  transition: border-color 0.2s;
+}
+
+select:focus,
+input[type="number"]:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+/* 6. Buttons */
+button {
+  font-family: var(--font-family);
+  font-weight: 500;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: var(--radius);
+  background-color: var(--primary);
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+.buttons {
+  display: flex;
+  gap: var(--spacing);
+  flex-wrap: wrap;
+}
+
+/* 7. Filter layout */
+#filterSection > div {
+  display: flex;
+  gap: var(--spacing);
+  flex-wrap: wrap;
+}
+
+#filterSection > div > div {
+  flex: 1 1 250px;
+}
+
+/* 8. Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  margin-top: var(--spacing);
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+}
+
+thead th {
+  background-color: #f0f0f5;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+tbody tr:hover {
+  background-color: #f0f0f5;
+}
+
+th[data-col]::after {
+  content: " ";
+  position: absolute;
+  right: 0.75rem;
+  font-size: 0.8rem;
+  color: var(--subtext-color);
+}
+
+/* 9. Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: var(--spacing);
+}
+
+.pagination button {
+  background-color: #fff;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.pagination button[disabled] {
+  background-color: var(--primary);
+  color: #fff;
+  cursor: default;
+}
+
+/* 10. Page size selector */
+.page-size {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: var(--spacing);
+  color: var(--subtext-color);
+}
+
+.page-size select {
+  width: auto;
+}
+
+/* 11. Print override (move to print.css) */
+/* Move your @media print rules into a separate print.css as linked above. */
