@@ -1,0 +1,585 @@
+[
+  {
+    "brand": "fronius",
+    "model": "fronius (3.0-10.0)kw gen24 plus symo 400v hybrid inverter - 3 phase",
+    "sku": "4.210.152.002",
+    "parts": [
+      {
+        "sku": "43.0001.1478",
+        "name": "Fronius Smart Meter 50kA-3",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "fronius",
+    "model": "fronius (3.0-10.0)kw gen24 plus symo 400v hybrid inverter - 3 phase",
+    "sku": "4.210.151.002",
+    "parts": [
+      {
+        "sku": "43.0001.1478",
+        "name": "Fronius Smart Meter 50kA-3",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "fronius",
+    "model": "fronius (3.0-10.0)kw gen24 plus symo 400v hybrid inverter - 3 phase",
+    "sku": "4.210.150.002",
+    "parts": [
+      {
+        "sku": "43.0001.1478",
+        "name": "Fronius Smart Meter 50kA-3",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "fronius",
+    "model": "fronius (3.0-10.0)kw gen24 plus symo 400v hybrid inverter - 3 phase",
+    "sku": "4.210.157.002",
+    "parts": [
+      {
+        "sku": "43.0001.1478",
+        "name": "Fronius Smart Meter 50kA-3",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "fronius",
+    "model": "fronius (3.0-10.0)kw gen24 plus symo 400v hybrid inverter - 3 phase",
+    "sku": "4.210.155.002",
+    "parts": [
+      {
+        "sku": "43.0001.1478",
+        "name": "Fronius Smart Meter 50kA-3",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "fronius",
+    "model": "fronius (3.0-10.0)kw gen24 plus symo 400v hybrid inverter - 3 phase",
+    "sku": "4.210.153.002",
+    "parts": [
+      {
+        "sku": "43.0001.1478",
+        "name": "Fronius Smart Meter 50kA-3",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "fronius",
+    "model": "fronius (3.0-6.0)kw gen24 plus primo 230v hybrid inverter - 1 phase",
+    "sku": "4.210.145.002",
+    "parts": [
+      {
+        "sku": "42.0411.0344",
+        "name": "Fronius Smart Meter TS 100A-1",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "fronius",
+    "model": "fronius (3.0-6.0)kw gen24 plus primo 230v hybrid inverter - 1 phase",
+    "sku": "4.210.144.002",
+    "parts": [
+      {
+        "sku": "42.0411.0344",
+        "name": "Fronius Smart Meter TS 100A-1",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "fronius",
+    "model": "fronius (3.0-6.0)kw gen24 plus primo 230v hybrid inverter - 1 phase",
+    "sku": "4.210.143.002",
+    "parts": [
+      {
+        "sku": "42.0411.0344",
+        "name": "Fronius Smart Meter TS 100A-1",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "fronius",
+    "model": "fronius (3.0-6.0)kw gen24 plus primo 230v hybrid inverter - 1 phase",
+    "sku": "4.210.142.002",
+    "parts": [
+      {
+        "sku": "42.0411.0344",
+        "name": "Fronius Smart Meter TS 100A-1",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "fronius",
+    "model": "fronius (3.0-6.0)kw gen24 plus primo 230v hybrid inverter - 1 phase",
+    "sku": "4.210.141.002",
+    "parts": [
+      {
+        "sku": "42.0411.0344",
+        "name": "Fronius Smart Meter TS 100A-1",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "fronius",
+    "model": "fronius (3.0-6.0)kw gen24 plus primo 230v hybrid inverter - 1 phase",
+    "sku": "4.210.140.002",
+    "parts": [
+      {
+        "sku": "42.0411.0344",
+        "name": "Fronius Smart Meter TS 100A-1",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "givenergy",
+    "model": "givenergy (3.6-5.0)kw single phase hybrid inverter - gen 3",
+    "sku": "giv-hy3.6 g3",
+    "parts": [
+      {
+        "sku": "GIV-GEM120CT",
+        "name": "GivEnergy GEM120CT 1 Phase Modbus Energy Meter with CT",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "givenergy",
+    "model": "givenergy (3.6-5.0)kw single phase hybrid inverter - gen 3",
+    "sku": "giv-hy5.0 g3",
+    "parts": [
+      {
+        "sku": "GIV-GEM120CT",
+        "name": "GivEnergy GEM120CT 1 Phase Modbus Energy Meter with CT",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "givenergy",
+    "model": "givenergy (8.0-10.0)kw single phase hybrid inverter - gen 3 (compatible with hv batteries)",
+    "sku": "giv-hy-8.0-g3-hv",
+    "parts": [
+      {
+        "sku": "GIV-GEM120CT",
+        "name": "GivEnergy GEM120CT 1 Phase Modbus Energy Meter with CT",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "givenergy",
+    "model": "givenergy (8.0-10.0)kw single phase hybrid inverter - gen 3 (compatible with hv batteries)",
+    "sku": "giv-hy-10.0-g3-hv",
+    "parts": [
+      {
+        "sku": "GIV-GEM120CT",
+        "name": "GivEnergy GEM120CT 1 Phase Modbus Energy Meter with CT",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "givenergy",
+    "model": "givenergy 3.0kw ac coupled battery inverter",
+    "sku": "giv-ac3.0",
+    "parts": [
+      {
+        "sku": "GIV-GEM120CT",
+        "name": "GivEnergy GEM120CT 1 Phase Modbus Energy Meter with CT",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "myenergi",
+    "model": "myenergi libbi hybrid inverter 3.68kw",
+    "sku": "libbi-hs3680",
+    "parts": []
+  },
+  {
+    "brand": "myenergi",
+    "model": "myenergi 5.0kw libbi hybrid inverter",
+    "sku": "libbi-hs5000",
+    "parts": []
+  },
+  {
+    "brand": "sma",
+    "model": "sma 48v sunny island (3.3 - 6.0)kw inverter charger",
+    "sku": "si8.0h-13",
+    "parts": [
+      {
+        "sku": "E-METER-20",
+        "name": "SMA Energy Meter",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "sma",
+    "model": "sma 48v sunny island (3.3 - 6.0)kw inverter charger",
+    "sku": "si6.0h-13",
+    "parts": [
+      {
+        "sku": "E-METER-20",
+        "name": "SMA Energy Meter",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "sma",
+    "model": "sma 48v sunny island (3.3 - 6.0)kw inverter charger",
+    "sku": "si4.4m-13",
+    "parts": [
+      {
+        "sku": "E-METER-20",
+        "name": "SMA Energy Meter",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "sma",
+    "model": "sma (5.0-10.0)kw sunny tripower smart energy storage inverter - three phase",
+    "sku": "stp8.0-3se-40",
+    "parts": [
+      {
+        "sku": "E-METER-20",
+        "name": "SMA Energy Meter",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "sma",
+    "model": "sma (5.0-10.0)kw sunny tripower smart energy storage inverter - three phase",
+    "sku": "stp6.0-3se-40",
+    "parts": [
+      {
+        "sku": "E-METER-20",
+        "name": "SMA Energy Meter",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "sma",
+    "model": "sma (5.0-10.0)kw sunny tripower smart energy storage inverter - three phase",
+    "sku": "stp5.0-3se-40",
+    "parts": [
+      {
+        "sku": "E-METER-20",
+        "name": "SMA Energy Meter",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "sma",
+    "model": "sma (5.0-10.0)kw sunny tripower smart energy storage inverter - three phase",
+    "sku": "stp10.0-3se-40",
+    "parts": [
+      {
+        "sku": "E-METER-20",
+        "name": "SMA Energy Meter",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "solaredge",
+    "model": "solaredge (5.0-8.0)kw storedge 400v hybrid inverter - 3 phase with setapp",
+    "sku": "se8k-rws48ben4",
+    "parts": [
+      {
+        "sku": "IAC-RBAT-5KCINV-02",
+        "name": "SolarEdge Home Battery Cable Set Battery to Inverter SEK-RWS",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "solaredge",
+    "model": "solaredge (5.0-8.0)kw storedge 400v hybrid inverter - 3 phase with setapp",
+    "sku": "se7k-rws48ben4",
+    "parts": [
+      {
+        "sku": "IAC-RBAT-5KCINV-02",
+        "name": "SolarEdge Home Battery Cable Set Battery to Inverter SEK-RWS",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "solaredge",
+    "model": "solaredge (5.0-8.0)kw storedge 400v hybrid inverter - 3 phase with setapp",
+    "sku": "se5k-rws48ben4",
+    "parts": [
+      {
+        "sku": "IAC-RBAT-5KCINV-02",
+        "name": "SolarEdge Home Battery Cable Set Battery to Inverter SEK-RWS",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "solaredge",
+    "model": "solaredge home hub 3-10kw solar inverter - single phase with setapp",
+    "sku": "se3000h-rwbmnbf54",
+    "parts": []
+  },
+  {
+    "brand": "solaredge",
+    "model": "solaredge home hub 3-10kw solar inverter - single phase with setapp",
+    "sku": "se3680h-rwbmnbf54",
+    "parts": []
+  },
+  {
+    "brand": "solaredge",
+    "model": "solaredge home hub 3-10kw solar inverter - single phase with setapp",
+    "sku": "se4000h-rwbmnbf54",
+    "parts": []
+  },
+  {
+    "brand": "solaredge",
+    "model": "solaredge home hub 3-10kw solar inverter - single phase with setapp",
+    "sku": "se5000h-rwbmnbf54",
+    "parts": []
+  },
+  {
+    "brand": "solaredge",
+    "model": "solaredge home hub 3-10kw solar inverter - single phase with setapp",
+    "sku": "se6000h-rwbmnbf54",
+    "parts": []
+  },
+  {
+    "brand": "solaredge",
+    "model": "solaredge home hub 3-10kw solar inverter - single phase with setapp",
+    "sku": "se8000h-rwbmnbf54",
+    "parts": []
+  },
+  {
+    "brand": "solaredge",
+    "model": "solaredge home hub 3-10kw solar inverter - single phase with setapp",
+    "sku": "se10000h-rwbmnbf54",
+    "parts": []
+  },
+  {
+    "brand": "solaredge",
+    "model": "solaredge home hub inverter 5-10kw - 3 phase with backup",
+    "sku": "se5k-rwb48bfn4",
+    "parts": [
+      {
+        "sku": "IAC-RBAT-5KCINV-01",
+        "name": "SolarEdge Home Battery Cable Set Battery to Inverter SEK-RWB48",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "solaredge",
+    "model": "solaredge home hub inverter 5-10kw - 3 phase with backup",
+    "sku": "se8k-rwb48bfn4",
+    "parts": [
+      {
+        "sku": "IAC-RBAT-5KCINV-01",
+        "name": "SolarEdge Home Battery Cable Set Battery to Inverter SEK-RWB48",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "solaredge",
+    "model": "solaredge home hub inverter 5-10kw - 3 phase with backup",
+    "sku": "se10k-rwb48bfn4",
+    "parts": [
+      {
+        "sku": "IAC-RBAT-5KCINV-01",
+        "name": "SolarEdge Home Battery Cable Set Battery to Inverter SEK-RWB48",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "solaredge",
+    "model": "solaredge storedge hd-wave 3.68kw ac coupled energy storage inverter - 1 phase",
+    "sku": "se3680h-rwsacnnn2",
+    "parts": [
+      {
+        "sku": "SE-WND-3Y400-MB-K2",
+        "name": "SolarEdge 230/400V Energy Meter with Modbus Connection",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "solis",
+    "model": "solis (12.0-20.0)kw s6 3 phase hybrid inverter with dc - 4 mppt for hv batteries (wifi/lan)",
+    "sku": "s6-eh3p20k-h-eu",
+    "parts": []
+  },
+  {
+    "brand": "solis",
+    "model": "solis (12.0-20.0)kw s6 3 phase hybrid inverter with dc - 4 mppt for hv batteries (wifi/lan)",
+    "sku": "s6-eh3p15k-h-eu",
+    "parts": []
+  },
+  {
+    "brand": "solis",
+    "model": "solis (12.0-20.0)kw s6 3 phase hybrid inverter with dc - 4 mppt for hv batteries (wifi/lan)",
+    "sku": "s6-eh3p12k-h-eu",
+    "parts": []
+  },
+  {
+    "brand": "solis",
+    "model": "solis (30.0-50.0)kw s6 3 phase hybrid inverter with dc - 4 mppt for hv batteries (wifi/lan)",
+    "sku": "s6-eh3p50k-h-eu",
+    "parts": []
+  },
+  {
+    "brand": "solis",
+    "model": "solis (30.0-50.0)kw s6 3 phase hybrid inverter with dc - 4 mppt for hv batteries (wifi/lan)",
+    "sku": "s6-eh3p40k-h-eu",
+    "parts": []
+  },
+  {
+    "brand": "solis",
+    "model": "solis (30.0-50.0)kw s6 3 phase hybrid inverter with dc - 4 mppt for hv batteries (wifi/lan)",
+    "sku": "s6-eh3p30k-h-eu",
+    "parts": []
+  },
+  {
+    "brand": "solis",
+    "model": "solis (3.0-6.0)kw 5g 230v hybrid inverter - 1 phase with dc (for lv batteries)",
+    "sku": "s5-eh1p6k-l",
+    "parts": []
+  },
+  {
+    "brand": "solis",
+    "model": "solis (3.0-6.0)kw 5g 230v hybrid inverter - 1 phase with dc (for lv batteries)",
+    "sku": "s5-eh1p5k-l",
+    "parts": []
+  },
+  {
+    "brand": "solis",
+    "model": "solis (3.0-6.0)kw 5g 230v hybrid inverter - 1 phase with dc (for lv batteries)",
+    "sku": "s5-eh1p3k-l",
+    "parts": []
+  },
+  {
+    "brand": "solis",
+    "model": "solis (3.0-6.0)kw 5g 230v hybrid inverter - 1 phase with dc (for lv batteries)",
+    "sku": "s5-eh1p3.6k-l",
+    "parts": []
+  },
+  {
+    "brand": "solis",
+    "model": "solis (5.0-10.0)kw 5g 400v hybrid inverter - 3 phase with dc (for hv batteries)",
+    "sku": "rhi-3p10k-hves-5g",
+    "parts": []
+  },
+  {
+    "brand": "solis",
+    "model": "solis (5.0-10.0)kw 5g 400v hybrid inverter - 3 phase with dc (for hv batteries)",
+    "sku": "rhi-3p8k-hves-5g",
+    "parts": []
+  },
+  {
+    "brand": "solis",
+    "model": "solis (5.0-10.0)kw 5g 400v hybrid inverter - 3 phase with dc (for hv batteries)",
+    "sku": "rhi-3p6k-hves-5g",
+    "parts": []
+  },
+  {
+    "brand": "solis",
+    "model": "solis (5.0-10.0)kw 5g 400v hybrid inverter - 3 phase with dc (for hv batteries)",
+    "sku": "rhi-3p5k-hves-5g",
+    "parts": []
+  },
+  {
+    "brand": "solis",
+    "model": "solis 3.0kw 5g 230v ac coupled energy storage inverter - 1 phase",
+    "sku": "s5-ea1p3k-l",
+    "parts": []
+  },
+  {
+    "brand": "solis",
+    "model": "solis 6.0kw 5g 230v hybrid inverter - 1 phase with dc",
+    "sku": "rhi-6k-48es-5g",
+    "parts": []
+  },
+  {
+    "brand": "solis",
+    "model": "solis s6 (5-10)kw 3 phase hybrid inverter with dc - 3/4 mppt for hv batteries (wifi/lan)",
+    "sku": "s6-eh3p5k-h-eu",
+    "parts": []
+  },
+  {
+    "brand": "solis",
+    "model": "solis s6 (5-10)kw 3 phase hybrid inverter with dc - 3/4 mppt for hv batteries (wifi/lan)",
+    "sku": "s6-eh3p6k-h-eu",
+    "parts": []
+  },
+  {
+    "brand": "solis",
+    "model": "solis s6 (5-10)kw 3 phase hybrid inverter with dc - 3/4 mppt for hv batteries (wifi/lan)",
+    "sku": "s6-eh3p10k-h-eu",
+    "parts": []
+  },
+  {
+    "brand": "solis",
+    "model": "solis s6 (5-10)kw 3 phase hybrid inverter with dc - 3/4 mppt for hv batteries (wifi/lan)",
+    "sku": "s6-eh3p8k-h-eu",
+    "parts": []
+  },
+  {
+    "brand": "solis",
+    "model": "solis 8.0kw s6 1 phase hybrid inverter with dc - 2 mppt for lv batteries",
+    "sku": "s6-eh1p8k-l-plus",
+    "parts": []
+  }
+]
