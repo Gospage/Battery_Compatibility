@@ -1241,10 +1241,22 @@
     "invSKU": "S5-EH1P6K-L",
     "invKW": "6.0",
     "batBrand": "dyness",
+    "batModel": "dyness b3 3.6kwh lithium battery : b3",
+    "batSKU": "(3.6) dyness-b3",
+    "minModules": 1,
+    "maxModules": 26,
+    "moduleCapacity": 3.6
+  },
+  {
+    "invBrand": "solis",
+    "invModel": "solis (3.0-6.0)kw 5g 230v hybrid inverter - 1 phase with dc (for lv batteries) : 5g",
+    "invSKU": "S5-EH1P6K-L",
+    "invKW": "6.0",
+    "batBrand": "dyness",
     "batModel": "dyness dl5.0c 5.12kwh lithium battery : dl5.0c",
     "batSKU": "(5.12) dyness-dl5.0c",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 20,
     "moduleCapacity": 5.12
   },
   {
@@ -1256,7 +1268,7 @@
     "batModel": "dyness power box f7.5kwh lithium battery : power box f7.5",
     "batSKU": "(7.5) dyness-pbf7.5",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 10,
     "moduleCapacity": 7.5
   },
   {
@@ -1268,7 +1280,7 @@
     "batModel": "dyness powerdepot h5b/51v100ah 5.12kw : powerdepot h5b",
     "batSKU": "(5.12) dyness-powerdepot-h5b",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 10,
     "moduleCapacity": 5.12
   },
   {
@@ -1280,7 +1292,7 @@
     "batModel": "dyness power box pro 10.24kwh lithium battery : power box pro",
     "batSKU": "(10.24) dyness-pb-pro",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 10,
     "moduleCapacity": 10.24
   },
   {
@@ -1292,7 +1304,7 @@
     "batModel": "dyness power box g2 10.24kwh lithium battery : power box g2",
     "batSKU": "(10.24) dyness-pb-g2",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 10,
     "moduleCapacity": 10.24
   },
   {
@@ -1316,7 +1328,7 @@
     "batModel": "pylon us3000c 3.55kwh lithium battery : us3000",
     "batSKU": "(3.55) us3000c",
     "minModules": 1,
-    "maxModules": 4,
+    "maxModules": 16,
     "moduleCapacity": 3.55
   },
   {
@@ -1328,7 +1340,7 @@
     "batModel": "pylon us5000-1c 4.8kwh li-ion solar battery : us5000-1c",
     "batSKU": "(4.8) us5000-1c",
     "minModules": 1,
-    "maxModules": 3,
+    "maxModules": 16,
     "moduleCapacity": 4.8
   },
   {
@@ -1361,10 +1373,22 @@
     "invSKU": "S5-EH1P5K-L",
     "invKW": "5.0",
     "batBrand": "dyness",
+    "batModel": "dyness b3 3.6kwh lithium battery : b3",
+    "batSKU": "(3.6) dyness-b3",
+    "minModules": 1,
+    "maxModules": 26,
+    "moduleCapacity": 3.6
+  },
+  {
+    "invBrand": "solis",
+    "invModel": "solis (3.0-6.0)kw 5g 230v hybrid inverter - 1 phase with dc (for lv batteries) : 5g",
+    "invSKU": "S5-EH1P5K-L",
+    "invKW": "5.0",
+    "batBrand": "dyness",
     "batModel": "dyness dl5.0c 5.12kwh lithium battery : dl5.0c",
     "batSKU": "(5.12) dyness-dl5.0c",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 20,
     "moduleCapacity": 5.12
   },
   {
@@ -1376,7 +1400,7 @@
     "batModel": "dyness power box f7.5kwh lithium battery : power box f7.5",
     "batSKU": "(7.5) dyness-pbf7.5",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 10,
     "moduleCapacity": 7.5
   },
   {
@@ -1388,7 +1412,7 @@
     "batModel": "dyness powerdepot h5b/51v100ah 5.12kw : powerdepot h5b",
     "batSKU": "(5.12) dyness-powerdepot-h5b",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 10,
     "moduleCapacity": 5.12
   },
   {
@@ -1400,7 +1424,7 @@
     "batModel": "dyness power box pro 10.24kwh lithium battery : power box pro",
     "batSKU": "(10.24) dyness-pb-pro",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 10,
     "moduleCapacity": 10.24
   },
   {
@@ -1412,7 +1436,7 @@
     "batModel": "dyness power box g2 10.24kwh lithium battery : power box g2",
     "batSKU": "(10.24) dyness-pb-g2",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 10,
     "moduleCapacity": 10.24
   },
   {
@@ -1436,7 +1460,7 @@
     "batModel": "pylon us3000c 3.55kwh lithium battery : us3000",
     "batSKU": "(3.55) us3000c",
     "minModules": 1,
-    "maxModules": 4,
+    "maxModules": 16,
     "moduleCapacity": 3.55
   },
   {
@@ -1448,7 +1472,7 @@
     "batModel": "pylon us5000-1c 4.8kwh li-ion solar battery : us5000-1c",
     "batSKU": "(4.8) us5000-1c",
     "minModules": 1,
-    "maxModules": 3,
+    "maxModules": 16,
     "moduleCapacity": 4.8
   },
   {
@@ -1481,10 +1505,22 @@
     "invSKU": "S5-EH1P3K-L",
     "invKW": "3.0",
     "batBrand": "dyness",
+    "batModel": "dyness b3 3.6kwh lithium battery : b3",
+    "batSKU": "(3.6) dyness-b3",
+    "minModules": 1,
+    "maxModules": 26,
+    "moduleCapacity": 3.6
+  },
+  {
+    "invBrand": "solis",
+    "invModel": "solis (3.0-6.0)kw 5g 230v hybrid inverter - 1 phase with dc (for lv batteries) : 5g",
+    "invSKU": "S5-EH1P3K-L",
+    "invKW": "3.0",
+    "batBrand": "dyness",
     "batModel": "dyness dl5.0c 5.12kwh lithium battery : dl5.0c",
     "batSKU": "(5.12) dyness-dl5.0c",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 20,
     "moduleCapacity": 5.12
   },
   {
@@ -1496,7 +1532,7 @@
     "batModel": "dyness power box f7.5kwh lithium battery : power box f7.5",
     "batSKU": "(7.5) dyness-pbf7.5",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 10,
     "moduleCapacity": 7.5
   },
   {
@@ -1508,7 +1544,7 @@
     "batModel": "dyness powerdepot h5b/51v100ah 5.12kw : powerdepot h5b",
     "batSKU": "(5.12) dyness-powerdepot-h5b",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 10,
     "moduleCapacity": 5.12
   },
   {
@@ -1520,7 +1556,7 @@
     "batModel": "dyness power box pro 10.24kwh lithium battery : power box pro",
     "batSKU": "(10.24) dyness-pb-pro",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 10,
     "moduleCapacity": 10.24
   },
   {
@@ -1532,7 +1568,7 @@
     "batModel": "dyness power box g2 10.24kwh lithium battery : power box g2",
     "batSKU": "(10.24) dyness-pb-g2",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 10,
     "moduleCapacity": 10.24
   },
   {
@@ -1556,7 +1592,7 @@
     "batModel": "pylon us3000c 3.55kwh lithium battery : us3000",
     "batSKU": "(3.55) us3000c",
     "minModules": 1,
-    "maxModules": 4,
+    "maxModules": 16,
     "moduleCapacity": 3.55
   },
   {
@@ -1568,7 +1604,7 @@
     "batModel": "pylon us5000-1c 4.8kwh li-ion solar battery : us5000-1c",
     "batSKU": "(4.8) us5000-1c",
     "minModules": 1,
-    "maxModules": 3,
+    "maxModules": 16,
     "moduleCapacity": 4.8
   },
   {
@@ -1601,10 +1637,22 @@
     "invSKU": "S5-EH1P3.6K-L",
     "invKW": "3.6",
     "batBrand": "dyness",
+    "batModel": "dyness b3 3.6kwh lithium battery : b3",
+    "batSKU": "(3.6) dyness-b3",
+    "minModules": 1,
+    "maxModules": 26,
+    "moduleCapacity": 3.6
+  },
+  {
+    "invBrand": "solis",
+    "invModel": "solis (3.0-6.0)kw 5g 230v hybrid inverter - 1 phase with dc (for lv batteries) : 5g",
+    "invSKU": "S5-EH1P3.6K-L",
+    "invKW": "3.6",
+    "batBrand": "dyness",
     "batModel": "dyness dl5.0c 5.12kwh lithium battery : dl5.0c",
     "batSKU": "(5.12) dyness-dl5.0c",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 20,
     "moduleCapacity": 5.12
   },
   {
@@ -1616,7 +1664,7 @@
     "batModel": "dyness power box f7.5kwh lithium battery : power box f7.5",
     "batSKU": "(7.5) dyness-pbf7.5",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 10,
     "moduleCapacity": 7.5
   },
   {
@@ -1628,7 +1676,7 @@
     "batModel": "dyness powerdepot h5b/51v100ah 5.12kw : powerdepot h5b",
     "batSKU": "(5.12) dyness-powerdepot-h5b",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 10,
     "moduleCapacity": 5.12
   },
   {
@@ -1640,7 +1688,7 @@
     "batModel": "dyness power box pro 10.24kwh lithium battery : power box pro",
     "batSKU": "(10.24) dyness-pb-pro",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 10,
     "moduleCapacity": 10.24
   },
   {
@@ -1652,7 +1700,7 @@
     "batModel": "dyness power box g2 10.24kwh lithium battery : power box g2",
     "batSKU": "(10.24) dyness-pb-g2",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 10,
     "moduleCapacity": 10.24
   },
   {
@@ -1676,7 +1724,7 @@
     "batModel": "pylon us3000c 3.55kwh lithium battery : us3000",
     "batSKU": "(3.55) us3000c",
     "minModules": 1,
-    "maxModules": 4,
+    "maxModules": 16,
     "moduleCapacity": 3.55
   },
   {
@@ -1688,7 +1736,7 @@
     "batModel": "pylon us5000-1c 4.8kwh li-ion solar battery : us5000-1c",
     "batSKU": "(4.8) us5000-1c",
     "minModules": 1,
-    "maxModules": 3,
+    "maxModules": 16,
     "moduleCapacity": 4.8
   },
   {
@@ -1916,7 +1964,7 @@
     "batModel": "dyness b3 3.6kwh lithium battery : b3",
     "batSKU": "(3.6) dyness-b3",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 26,
     "moduleCapacity": 3.6
   },
   {
@@ -1928,7 +1976,7 @@
     "batModel": "dyness dl5.0c 5.12kwh lithium battery : dl5.0c",
     "batSKU": "(5.12) dyness-dl5.0c",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 20,
     "moduleCapacity": 5.12
   },
   {
@@ -1940,7 +1988,7 @@
     "batModel": "dyness power box f7.5kwh lithium battery : power box f7.5",
     "batSKU": "(7.5) dyness-pbf7.5",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 10,
     "moduleCapacity": 7.5
   },
   {
@@ -1952,7 +2000,7 @@
     "batModel": "dyness powerdepot h5b/51v100ah 5.12kw : powerdepot h5b",
     "batSKU": "(5.12) dyness-powerdepot-h5b",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 10,
     "moduleCapacity": 5.12
   },
   {
@@ -1964,7 +2012,7 @@
     "batModel": "dyness power box pro 10.24kwh lithium battery : power box pro",
     "batSKU": "(10.24) dyness-pb-pro",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 10,
     "moduleCapacity": 10.24
   },
   {
@@ -1988,7 +2036,7 @@
     "batModel": "pylon us3000c 3.55kwh lithium battery : us3000",
     "batSKU": "(3.55) us3000c",
     "minModules": 1,
-    "maxModules": 4,
+    "maxModules": 16,
     "moduleCapacity": 3.55
   },
   {
@@ -2000,7 +2048,7 @@
     "batModel": "pylon us5000-1c 4.8kwh li-ion solar battery : us5000-1c",
     "batSKU": "(4.8) us5000-1c",
     "minModules": 1,
-    "maxModules": 3,
+    "maxModules": 16,
     "moduleCapacity": 4.8
   },
   {
@@ -2036,7 +2084,7 @@
     "batModel": "dyness b3 3.6kwh lithium battery : b3",
     "batSKU": "(3.6) dyness-b3",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 26,
     "moduleCapacity": 3.6
   },
   {
@@ -2048,7 +2096,7 @@
     "batModel": "dyness dl5.0c 5.12kwh lithium battery : dl5.0c",
     "batSKU": "(5.12) dyness-dl5.0c",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 20,
     "moduleCapacity": 5.12
   },
   {
@@ -2060,7 +2108,7 @@
     "batModel": "dyness power box f7.5kwh lithium battery : power box f7.5",
     "batSKU": "(7.5) dyness-pbf7.5",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 10,
     "moduleCapacity": 7.5
   },
   {
@@ -2072,7 +2120,7 @@
     "batModel": "dyness powerdepot h5b/51v100ah 5.12kw : powerdepot h5b",
     "batSKU": "(5.12) dyness-powerdepot-h5b",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 10,
     "moduleCapacity": 5.12
   },
   {
@@ -2084,7 +2132,7 @@
     "batModel": "dyness power box pro 10.24kwh lithium battery : power box pro",
     "batSKU": "(10.24) dyness-pb-pro",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 10,
     "moduleCapacity": 10.24
   },
   {
@@ -2096,7 +2144,7 @@
     "batModel": "dyness power box g2 10.24kwh lithium battery : power box g2",
     "batSKU": "(10.24) dyness-pb-g2",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 10,
     "moduleCapacity": 10.24
   },
   {
@@ -2120,7 +2168,7 @@
     "batModel": "pylon us3000c 3.55kwh lithium battery : us3000",
     "batSKU": "(3.55) us3000c",
     "minModules": 1,
-    "maxModules": 4,
+    "maxModules": 16,
     "moduleCapacity": 3.55
   },
   {
@@ -2132,7 +2180,7 @@
     "batModel": "pylon us5000-1c 4.8kwh li-ion solar battery : us5000-1c",
     "batSKU": "(4.8) us5000-1c",
     "minModules": 1,
-    "maxModules": 3,
+    "maxModules": 16,
     "moduleCapacity": 4.8
   },
   {
@@ -2192,7 +2240,7 @@
     "batModel": "pylon force-fh2 3.55kwh lithium battery : fh2",
     "batSKU": "(3.55) fh9637m-fh2",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 5,
     "moduleCapacity": 3.55
   },
   {
@@ -2252,7 +2300,7 @@
     "batModel": "pylon force-fh2 3.55kwh lithium battery : fh2",
     "batSKU": "(3.55) fh9637m-fh2",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 5,
     "moduleCapacity": 3.55
   },
   {
@@ -2312,7 +2360,7 @@
     "batModel": "pylon force-fh2 3.55kwh lithium battery : fh2",
     "batSKU": "(3.55) fh9637m-fh2",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 5,
     "moduleCapacity": 3.55
   },
   {
@@ -2372,7 +2420,7 @@
     "batModel": "pylon force-fh2 3.55kwh lithium battery : fh2",
     "batSKU": "(3.55) fh9637m-fh2",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 5,
     "moduleCapacity": 3.55
   },
   {
@@ -2408,7 +2456,7 @@
     "batModel": "dyness b3 3.6kwh lithium battery : b3",
     "batSKU": "(3.6) dyness-b3",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 40,
     "moduleCapacity": 3.6
   },
   {
@@ -2420,7 +2468,7 @@
     "batModel": "dyness dl5.0c 5.12kwh lithium battery : dl5.0c",
     "batSKU": "(5.12) dyness-dl5.0c",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 50,
     "moduleCapacity": 5.12
   },
   {
@@ -2432,7 +2480,7 @@
     "batModel": "dyness power box f7.5kwh lithium battery : power box f7.5",
     "batSKU": "(7.5) dyness-pbf7.5",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 10,
     "moduleCapacity": 7.5
   },
   {
@@ -2444,7 +2492,7 @@
     "batModel": "dyness powerdepot h5b/51v100ah 5.12kw : powerdepot h5b",
     "batSKU": "(5.12) dyness-powerdepot-h5b",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 10,
     "moduleCapacity": 5.12
   },
   {
@@ -2456,7 +2504,7 @@
     "batModel": "dyness power box pro 10.24kwh lithium battery : power box pro",
     "batSKU": "(10.24) dyness-pb-pro",
     "minModules": 1,
-    "maxModules": 1,
+    "maxModules": 10,
     "moduleCapacity": 10.24
   },
   {
@@ -2480,7 +2528,7 @@
     "batModel": "pylon us3000c 3.55kwh lithium battery : us3000",
     "batSKU": "(3.55) us3000c",
     "minModules": 1,
-    "maxModules": 4,
+    "maxModules": 16,
     "moduleCapacity": 3.55
   },
   {
@@ -2492,7 +2540,91 @@
     "batModel": "pylon us5000-1c 4.8kwh li-ion solar battery : us5000-1c",
     "batSKU": "(4.8) us5000-1c",
     "minModules": 1,
-    "maxModules": 3,
+    "maxModules": 16,
     "moduleCapacity": 4.8
+  },
+  {
+    "invBrand": "tesla",
+    "invModel": "powerwall 3 - 1 phase (13.5kwh)",
+    "invSKU": "Tesla-Powerwall-3",
+    "invKW": "3.68",
+    "batBrand": "tesla",
+    "batModel": "powerwall 3 additional battery",
+    "batSKU": "(13.5)",
+    "minModules": 1,
+    "maxModules": 3,
+    "moduleCapacity": 13.5
+  },
+  {
+    "invBrand": "tesla",
+    "invModel": "powerwall 3 - 1 phase (13.5kwh)",
+    "invSKU": "Tesla-Powerwall-3",
+    "invKW": "5",
+    "batBrand": "tesla",
+    "batModel": "powerwall 3 additional battery",
+    "batSKU": "(13.5)",
+    "minModules": 1,
+    "maxModules": 3,
+    "moduleCapacity": 13.5
+  },
+  {
+    "invBrand": "tesla",
+    "invModel": "powerwall 3 - 1 phase (13.5kwh)",
+    "invSKU": "Tesla-Powerwall-3",
+    "invKW": "6",
+    "batBrand": "tesla",
+    "batModel": "powerwall 3 additional battery",
+    "batSKU": "(13.5)",
+    "minModules": 1,
+    "maxModules": 3,
+    "moduleCapacity": 13.5
+  },
+  {
+    "invBrand": "tesla",
+    "invModel": "powerwall 3 - 1 phase (13.5kwh)",
+    "invSKU": "Tesla-Powerwall-3",
+    "invKW": "7",
+    "batBrand": "tesla",
+    "batModel": "powerwall 3 additional battery",
+    "batSKU": "(13.5)",
+    "minModules": 1,
+    "maxModules": 3,
+    "moduleCapacity": 13.5
+  },
+  {
+    "invBrand": "tesla",
+    "invModel": "powerwall 3 - 1 phase (13.5kwh)",
+    "invSKU": "Tesla-Powerwall-3",
+    "invKW": "8",
+    "batBrand": "tesla",
+    "batModel": "powerwall 3 additional battery",
+    "batSKU": "(13.5)",
+    "minModules": 1,
+    "maxModules": 3,
+    "moduleCapacity": 13.5
+  },
+  {
+    "invBrand": "tesla",
+    "invModel": "powerwall 3 - 1 phase (13.5kwh)",
+    "invSKU": "Tesla-Powerwall-3",
+    "invKW": "9",
+    "batBrand": "tesla",
+    "batModel": "powerwall 3 additional battery",
+    "batSKU": "(13.5)",
+    "minModules": 1,
+    "maxModules": 3,
+    "moduleCapacity": 13.5
+  },
+  {
+    "invBrand": "tesla",
+    "invModel": "powerwall 3 - 1 phase (13.5kwh)",
+    "invSKU": "Tesla-Powerwall-3",
+    "invKW": "11.04",
+    "batBrand": "tesla",
+    "batModel": "powerwall 3 additional battery",
+    "batSKU": "(13.5)",
+    "minModules": 1,
+    "maxModules": 3,
+    "moduleCapacity": 13.5
   }
 ]

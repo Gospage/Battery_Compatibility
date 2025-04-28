@@ -82,14 +82,28 @@
     "brand": "dyness",
     "model": "dyness b3 3.6kwh lithium battery",
     "sku": "dyness-b3",
-    "requiredParts": [],
+    "requiredParts": [
+      {
+        "sku": "Isolator",
+        "name": "isolator Required between inverter and battery",
+        "quantity": 1,
+        "per_module": false
+      }
+    ],
     "conditionalParts": []
   },
   {
     "brand": "dyness",
     "model": "dyness dl5.0c 5.12kwh lithium battery",
     "sku": "dyness-dl5.0c",
-    "requiredParts": [],
+    "requiredParts": [
+      {
+        "sku": "Isolator",
+        "name": "isolator Required between inverter and battery",
+        "quantity": 1,
+        "per_module": false
+      }
+    ],
     "conditionalParts": []
   },
   {
@@ -97,48 +111,105 @@
     "model": "dyness power box f7.5kwh lithium battery",
     "sku": "dyness-pbf7.5",
     "requiredParts": [],
-    "conditionalParts": []
+    "conditionalParts": [
+      {
+        "sku": "Busbar",
+        "name": "Needs Busbar and isolator",
+        "quantity": 1,
+        "per_module": false,
+        "min_modules": 2,
+        "max_modules": null
+      }
+    ]
   },
   {
     "brand": "dyness",
     "model": "dyness powerdepot h5b/51v100ah 5.12kw",
     "sku": "dyness-powerdepot-h5b",
     "requiredParts": [],
-    "conditionalParts": []
+    "conditionalParts": [
+      {
+        "sku": "Busbar",
+        "name": "Needs Busbar and isolator",
+        "quantity": 1,
+        "per_module": false,
+        "min_modules": 2,
+        "max_modules": null
+      }
+    ]
   },
   {
     "brand": "dyness",
     "model": "dyness power box pro 10.24kwh lithium battery",
     "sku": "dyness-pb-pro",
     "requiredParts": [],
-    "conditionalParts": []
+    "conditionalParts": [
+      {
+        "sku": "Busbar",
+        "name": "Needs Busbar and isolator",
+        "quantity": 1,
+        "per_module": false,
+        "min_modules": 2,
+        "max_modules": null
+      }
+    ]
   },
   {
     "brand": "dyness",
     "model": "dyness power box g2 10.24kwh lithium battery",
     "sku": "dyness-pb-g2",
     "requiredParts": [],
-    "conditionalParts": []
+    "conditionalParts": [
+      {
+        "sku": "Busbar",
+        "name": "Needs Busbar and isolator",
+        "quantity": 1,
+        "per_module": false,
+        "min_modules": 2,
+        "max_modules": null
+      }
+    ]
   },
   {
     "brand": "dyness",
     "model": "dyness 56.32kwh power rack",
     "sku": "dyness-powerrack-hv4f-11s",
-    "requiredParts": [],
+    "requiredParts": [
+      {
+        "sku": "Isolator",
+        "name": "isolator Required between inverter and battery",
+        "quantity": 1,
+        "per_module": false
+      }
+    ],
     "conditionalParts": []
   },
   {
     "brand": "dyness",
     "model": "dyness 40.96kwh power rack",
     "sku": "dyness-powerrack-hv4f-8s",
-    "requiredParts": [],
+    "requiredParts": [
+      {
+        "sku": "Isolator",
+        "name": "isolator Required between inverter and battery",
+        "quantity": 1,
+        "per_module": false
+      }
+    ],
     "conditionalParts": []
   },
   {
     "brand": "dyness",
     "model": "dyness 76.8kwh power stone outdoor battery cabinet",
     "sku": "dyness-powerstone",
-    "requiredParts": [],
+    "requiredParts": [
+      {
+        "sku": "Isolator",
+        "name": "isolator Required between inverter and battery",
+        "quantity": 1,
+        "per_module": false
+      }
+    ],
     "conditionalParts": []
   },
   {
@@ -277,12 +348,27 @@
       },
       {
         "sku": "BRACK-US3000",
-        "name": "Pylon US3000 Bracket",
+        "name": "(optional) Pylon US3000 Bracket (Max 4 in a stack)",
         "quantity": 1,
         "per_module": true
+      },
+      {
+        "sku": "Isolator",
+        "name": "isolator Required between inverter and battery",
+        "quantity": 1,
+        "per_module": false
       }
     ],
-    "conditionalParts": []
+    "conditionalParts": [
+      {
+        "sku": "Design Note",
+        "name": "CAN/RS-485 lead to the inverter _ extended power leeds may be required",
+        "quantity": 1,
+        "per_module": false,
+        "min_modules": 1,
+        "max_modules": 16
+      }
+    ]
   },
   {
     "brand": "pylon",
@@ -297,12 +383,21 @@
       },
       {
         "sku": "BRACK-US5000",
-        "name": "Pylon US5000 Bracket",
+        "name": "(optional) Pylon US5000 Bracket (Max 3 in a stack)",
         "quantity": 1,
         "per_module": true
       }
     ],
-    "conditionalParts": []
+    "conditionalParts": [
+      {
+        "sku": "Design Note",
+        "name": "CAN/RS-485 lead to the inverter _ extended power leeds may be required",
+        "quantity": 1,
+        "per_module": false,
+        "min_modules": 1,
+        "max_modules": 16
+      }
+    ]
   },
   {
     "brand": "pylon",
