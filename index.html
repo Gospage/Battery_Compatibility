@@ -4,57 +4,97 @@
   <meta charset="UTF-8">
   <title>Battery/Inverter Compatibility Tool</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="print.css" media="print">
-
   <!-- jsPDF UMD build (2.5.1) -->
   <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
   <!-- AutoTable plugin (3.5.28) -->
   <script src="https://cdn.jsdelivr.net/npm/jspdf-autotable@3.5.28/dist/jspdf.plugin.autotable.min.js"></script>
 </head>
 <body>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__overlay"></div>
+    <div class="hero__content container">
+      <h1>Battery/Inverter Compatibility Tool</h1>
+      <p class="lead">
+        Quickly find compatible battery + inverter combinations for your installation.
+      </p>
+    </div>
+  </section>
+
+  <!-- ANGLED DIVIDER -->
+  <div class="section__divider">
+    <svg viewBox="0 0 1200 100" preserveAspectRatio="none">
+      <polygon points="0,0 1200,100 0,100" fill="var(--grey-bg)" />
+    </svg>
+  </div>
+
+  <!-- FILTER SECTION -->
+<section class="section section--angled" id="filterSection">
   <div class="container">
-    <h1>Battery/Inverter Compatibility Tool</h1>
+    <h2>Enter Inverter and/or Battery Requirements</h2>
 
-    <!-- Filter Section -->
-    <div class="section" id="filterSection">
-      <h2>Filter Options</h2>
-      <div style="display:flex; gap:20px; flex-wrap:wrap;">
-        <!-- Inverter Filters -->
-        <div style="flex:1; min-width:250px;">
-          <h3>Inverter Filters</h3>
-          <label for="invMake">Make:</label>
-          <select id="invMake"><option value="">--Any--</option></select>
-          <label for="invModel">Model:</label>
-          <select id="invModel"><option value="">--Any--</option></select>
-          <label for="invKW">kW Rating:</label>
-          <input type="number" id="invKW" placeholder="e.g., 3.6" step="0.1" min="0">
-          <label for="invPhase">Phase:</label>
-          <select id="invPhase">
-            <option value="">--Any--</option>
-            <option value="single">Single-Phase</option>
-            <option value="three">Three-Phase</option>
-          </select>
-        </div>
+    <div class="filter-grid">
+      <!-- Inverter Filters -->
+      <div class="filter-card">
+        <h3>Inverter Filters</h3>
 
-        <!-- Battery Filters -->
-        <div style="flex:1; min-width:250px;">
-          <h3>Battery Filters</h3>
-          <label for="batMake">Make:</label>
-          <select id="batMake"><option value="">--Any--</option></select>
-          <label for="batModel">Model:</label>
-          <select id="batModel"><option value="">--Any--</option></select>
-          <label for="minStorage">Min Storage (kWh):</label>
-          <input type="number" id="minStorage" placeholder="e.g., 18" step="0.1" min="0">
-          <label for="maxStorage">Max Storage (kWh):</label>
-          <input type="number" id="maxStorage" placeholder="e.g., 22" step="0.1" min="0">
-        </div>
+        <label for="invMake">Make:</label>
+        <select id="invMake">
+          <option value="">--Any--</option>
+        </select>
+
+        <label for="invModel">Model:</label>
+        <select id="invModel">
+          <option value="">--Any--</option>
+        </select>
+
+        <label for="invKW">kW Rating:</label>
+        <select id="invKW">
+          <option value="">--Any kW--</option>
+        </select>
+
+        <label for="invPhase">Phase:</label>
+        <select id="invPhase">
+          <option value="">--Any--</option>
+          <option value="single">Single-Phase</option>
+          <option value="three">Three-Phase</option>
+        </select>
       </div>
-      <button id="applyFiltersBtn">Apply Filters</button>
+
+      <!-- Battery Filters -->
+      <div class="filter-card">
+        <h3>Battery Filters</h3>
+
+        <label for="batMake">Make:</label>
+        <select id="batMake">
+          <option value="">--Any--</option>
+        </select>
+
+        <label for="batModel">Model:</label>
+        <select id="batModel">
+          <option value="">--Any--</option>
+        </select>
+
+        <label for="minStorage">Min Storage (kWh):</label>
+        <input type="number" id="minStorage" placeholder="0" />
+
+        <label for="maxStorage">Max Storage (kWh):</label>
+        <input type="number" id="maxStorage" placeholder="Any" />
+      </div>
     </div>
 
-    <!-- Results Section -->
-    <div class="section" id="resultsSection" style="display:none;">
+    <div style="text-align:right; margin-top:1rem;">
+      <button id="applyFiltersBtn" class="btn btn--primary">Apply Filters</button>
+    </div>
+  </div>
+</section>
+
+
+  <!-- RESULTS SECTION -->
+  <section class="section" id="resultsSection">
+    <div class="container">
       <h2>Matching Combinations</h2>
+
       <div class="page-size">
         Show
         <select id="pageSizeSelect">
@@ -65,11 +105,12 @@
         </select>
         entries
       </div>
+
       <table id="resultsTable">
         <thead>
           <tr>
             <th data-col="0">Inverter ▲▼</th>
-            <th data-col="1">Battery ▲▼</th>
+            <th data-col="1">Battery / Combination ▲▼</th>
             <th data-col="2">Modules ▲▼</th>
             <th data-col="3">Total Storage ▲▼</th>
             <th data-col="4">Action</th>
@@ -77,19 +118,22 @@
         </thead>
         <tbody></tbody>
       </table>
+
       <div class="pagination" id="pagination"></div>
     </div>
+  </section>
 
-    <!-- BOM Section -->
-    <div class="section" id="bomSection" style="display:none;">
+  <!-- BOM SECTION -->
+  <section class="section" id="bomSection">
+    <div class="container">
       <h2>Bill of Materials</h2>
       <div id="bomDetails"></div>
-      <div class="buttons" style="margin-top:10px;">
-        <button id="closeBOMBtn">Close BOM</button>
-        <button id="downloadPdfBtn">Download PDF</button>
+      <div class="buttons" style="margin-top:1rem; justify-content:flex-end;">
+        <button id="closeBOMBtn" class="btn btn--ghost">Close BOM</button>
+        <button id="downloadPdfBtn" class="btn btn--primary">Download PDF</button>
       </div>
     </div>
-  </div>
+  </section>
 
   <script src="app.js"></script>
 </body>

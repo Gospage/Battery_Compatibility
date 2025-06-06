@@ -156,6 +156,82 @@
     ]
   },
   {
+    "brand": "fronius",
+    "model": "fronius verto (25-33)kw spd 1+2 - three phase",
+    "sku": "4.210.400",
+    "parts": [
+      {
+        "sku": "43.0001.3591",
+        "name": "Fronius Smart Meter WR",
+        "quantity": 1,
+        "per_module": false
+      },
+      {
+        "sku": "42.0449.0097",
+        "name": "Fronius Split Core Current Transformer 100/0.333V - Check system size",
+        "quantity": 3,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "fronius",
+    "model": "fronius verto (25-33)kw spd 1+2 - three phase",
+    "sku": "4.210.402",
+    "parts": [
+      {
+        "sku": "43.0001.3591",
+        "name": "Fronius Smart Meter WR",
+        "quantity": 1,
+        "per_module": false
+      },
+      {
+        "sku": "42.0449.0097",
+        "name": "Fronius Split Core Current Transformer 100/0.333V - Check system size",
+        "quantity": 3,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "fronius",
+    "model": "fronius verto (25-33)kw spd 1+2 - three phase",
+    "sku": "4.210.404",
+    "parts": [
+      {
+        "sku": "43.0001.3591",
+        "name": "Fronius Smart Meter WR",
+        "quantity": 1,
+        "per_module": false
+      },
+      {
+        "sku": "42.0449.0097",
+        "name": "Fronius Split Core Current Transformer 100/0.333V - Check system size",
+        "quantity": 3,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "fronius",
+    "model": "fronius verto (25-33)kw spd 1+2 - three phase",
+    "sku": "4.210.406",
+    "parts": [
+      {
+        "sku": "43.0001.3591",
+        "name": "Fronius Smart Meter WR",
+        "quantity": 1,
+        "per_module": false
+      },
+      {
+        "sku": "42.0449.0097",
+        "name": "Fronius Split Core Current Transformer 100/0.333V - Check system size",
+        "quantity": 3,
+        "per_module": false
+      }
+    ]
+  },
+  {
     "brand": "givenergy",
     "model": "givenergy (3.6-5.0)kw single phase hybrid inverter - gen 3",
     "sku": "giv-hy3.6 g3",
@@ -581,5 +657,162 @@
     "model": "solis 8.0kw s6 1 phase hybrid inverter with dc - 2 mppt for lv batteries",
     "sku": "s6-eh1p8k-l-plus",
     "parts": []
+  },
+  {
+    "brand": "sigenergy",
+    "model": "sigenergy sigenstor energy controller 1 phase",
+    "sku": "sig-11040005",
+    "parts": [
+      {
+        "sku": "SIG-1426000005",
+        "name": "Sigenergy Sensor Single Phase-CT120-DH",
+        "quantity": 1,
+        "per_module": false
+      },
+      {
+        "sku": "SIG-11110015",
+        "name": "(optional instead of sensor) Sigenergy Gateway HomeMax Single Phase",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "sigenergy",
+    "model": "sigenergy sigenstor energy controller 1 phase",
+    "sku": "sig-11040002",
+    "parts": [
+      {
+        "sku": "SIG-1426000005",
+        "name": "Sigenergy Sensor Single Phase-CT120-DH",
+        "quantity": 1,
+        "per_module": false
+      },
+      {
+        "sku": "SIG-11110015",
+        "name": "(optional instead of sensor) Sigenergy Gateway HomeMax Single Phase",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "sigenergy",
+    "model": "sigenergy sigenstor energy controller 1 phase",
+    "sku": "sig-11040001",
+    "parts": [
+      {
+        "sku": "SIG-1426000005",
+        "name": "Sigenergy Sensor Single Phase-CT120-DH",
+        "quantity": 1,
+        "per_module": false
+      },
+      {
+        "sku": "SIG-11110015",
+        "name": "(optional instead of sensor) Sigenergy Gateway HomeMax Single Phase",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "sigenergy",
+    "model": "sigenergy sigenstor energy controller 1 phase",
+    "sku": "sig-11040029",
+    "parts": [
+      {
+        "sku": "SIG-1426000005",
+        "name": "Sigenergy Sensor Single Phase-CT120-DH",
+        "quantity": 1,
+        "per_module": false
+      },
+      {
+        "sku": "SIG-11110015",
+        "name": "(optional instead of sensor) Sigenergy Gateway HomeMax Single Phase",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "sigenergy",
+    "model": "sigenergy sigenstor energy controller 1 phase",
+    "sku": "sig-11040028",
+    "parts": [
+      {
+        "sku": "SIG-1426000005",
+        "name": "Sigenergy Sensor Single Phase-CT120-DH",
+        "quantity": 1,
+        "per_module": false
+      },
+      {
+        "sku": "SIG-11110015",
+        "name": "(optional instead of sensor) Sigenergy Gateway HomeMax Single Phase",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "sigenergy",
+    "model": "sigenergy sigenstor energy controller 1 phase",
+    "sku": "sig-11040027",
+    "parts": [
+      {
+        "sku": "SIG-1426000005",
+        "name": "Sigenergy Sensor Single Phase-CT120-DH",
+        "quantity": 1,
+        "per_module": false
+      },
+      {
+        "sku": "SIG-11110015",
+        "name": "(optional instead of sensor) Sigenergy Gateway HomeMax Single Phase",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "sigenergy",
+    "model": "sigenergy sigenstor energy controller 3 phase",
+    "sku": "sig-11010013",
+    "parts": []
+  },
+  {
+    "brand": "sigenergy",
+    "model": "sigenergy sigenstor energy controller 3 phase",
+    "sku": "sig-11010014",
+    "parts": []
+  },
+  {
+    "brand": "sigenergy",
+    "model": "sigenergy sigenstor energy controller 3 phase",
+    "sku": "sig-11010015",
+    "parts": []
+  },
+  {
+    "brand": "sigenergy",
+    "model": "sigenergy sigenstor energy controller 3 phase",
+    "sku": "sig-11010017",
+    "parts": []
+  },
+  {
+    "brand": "sigenergy",
+    "model": "sigenergy sigenstor energy controller 3 phase",
+    "sku": "sig-11010018",
+    "parts": []
+  },
+  {
+    "brand": "tesla",
+    "model": "powerwall 3 - 1 phase",
+    "sku": "tesla-1707000-31-j",
+    "parts": [
+      {
+        "sku": "TESLA-1152100-13-J",
+        "name": "Tesla Backup Gateway 2 Bundle",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
   }
 ]

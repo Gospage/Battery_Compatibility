@@ -1,19 +1,40 @@
 /* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+/* 0. Alliance typeface */
+@font-face {
+  font-family: 'Alliance';
+  src: url('/fonts/AllianceNo2.woff2') format('woff2'),
+       url('/fonts/AllianceNo2.woff')  format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 
 /* 1. Theme variables */
 :root {
-  --bg-color: #f5f5f7;
-  --card-bg: #ffffff;
-  --text-color: #1d1d1f;
-  --subtext-color: #6e6e73;
-  --primary: #0071e3;
-  --border: #d2d2d7;
-  --radius: 8px;
-  --spacing: 1rem;
-  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  /* Palette */
+  --dark-bg:       #0A0A0A;
+  --light-bg:      #FFFFFF;
+  --grey-bg:       #F7F7F8;
+
+  --bg-color:      var(--light-bg);
+  --card-bg:       var(--light-bg);
+  --border:        #E1E1E5;
+
+  --text-dark:     #1D1D1F;
+  --text-light:    #1D1D1F;
+  --subtext-color: #6E6E73;
+
+  --accent:        #00D6FF;
+  --primary:       var(--accent);
+
+  --radius:        8px;
+  --spacing:       1rem;
+  --font-family:   -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
-/* 2. Base styles */
+/* 2. Base reset + containers */
 *,
 *::before,
 *::after {
@@ -24,54 +45,124 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--bg-color);
-  color: var(--text-color);
+  color: var(--text-dark);
   font-family: var(--font-family);
   line-height: 1.6;
 }
 
 .container {
   max-width: 960px;
-  margin: auto;
+  margin: 0 auto;
   padding: var(--spacing);
 }
 
-/* 3. Headings */
+/* 3. Typography */
 h1, h2, h3 {
   margin-top: 0;
-  color: var(--text-color);
+  color: var(--text-dark);
+  line-height: 1.2;
 }
 
 h1 {
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
+  margin-bottom: var(--spacing);
 }
 
 h2 {
-  font-size: 1.5rem;
-  font-weight: 500;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: var(--spacing);
   border-bottom: 1px solid var(--border);
   padding-bottom: 0.5rem;
-  margin-bottom: var(--spacing);
 }
 
 h3 {
   font-size: 1.125rem;
   font-weight: 500;
   margin-bottom: 0.5rem;
-  color: var(--text-color);
 }
 
-/* 4. Sections as “cards” */
+.lead {
+  font-size: 1.25rem;
+  margin-bottom: var(--spacing);
+  color: var(--subtext-color);
+}
+
+/* 4. Section “cards” */
 .section {
   background-color: var(--card-bg);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: var(--spacing);
   margin-bottom: var(--spacing);
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
-/* 5. Form controls */
+/* 5. Hero */
+.hero {
+  position: relative;
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  color: var(--text-dark);
+  padding-left: var(--spacing);
+}
+
+.hero__media {
+  position: absolute;
+  top: 50%; left: 50%;
+  width: auto; height: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
+.hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: #FFFFFF;
+}
+
+.hero__content {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  max-width: none; /* allow the H1 to expand fully */
+  padding: var(--spacing);
+}
+
+/* 5a. Hero H1 typewriter + custom font + light color */
+.hero__content h1 {
+  font-family: 'orbitron', var(--font-family);
+  color: inherit;             /* pick up .hero’s white */
+  overflow: hidden;           /* hide untyped text */
+  white-space: nowrap;        /* keep on one line */
+  display: inline-block;      /* shrink-wrap to text */
+  font-weight: 400;
+  /*border-right: .1em solid currentColor; /* blinking cursor */
+  animation:
+    typing 3s steps(35, end) 0.5s 1 both
+    /*blink-caret .75s step-end infinite*/;
+}
+
+/* 6. SVG section divider */
+.section__divider {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.section__divider svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* 7. Form controls */
 label {
   display: block;
   font-weight: 500;
@@ -88,7 +179,7 @@ input[type="number"] {
   font-size: 1rem;
   font-family: var(--font-family);
   margin-bottom: var(--spacing);
-  background-color: #fff;
+  background-color: var(--light-bg);
   transition: border-color 0.2s;
 }
 
@@ -98,24 +189,43 @@ input[type="number"]:focus {
   border-color: var(--primary);
 }
 
-/* 6. Buttons */
-button {
+/* 8. Buttons */
+.btn {
   font-family: var(--font-family);
-  font-weight: 500;
-  padding: 0.6rem 1.2rem;
-  border: none;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
   border-radius: var(--radius);
-  background-color: var(--primary);
-  color: #fff;
   cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
   transition: background-color 0.2s, transform 0.1s;
 }
 
-button:hover {
-  background-color: #005bb5;
+.btn--primary {
+  background-color: var(--primary);
+  color: var(--text-light);
 }
 
-button:active {
+.btn--primary:hover {
+  background-color: #00b4e0;
+}
+
+.btn--primary:active {
+  transform: translateY(1px);
+}
+
+.btn--ghost {
+  background-color: transparent;
+  border: 2px solid var(--text-light);
+  color: var(--text-light);
+}
+
+.btn--ghost:hover {
+  background-color: var(--text-light);
+  color: var(--text-dark);
+}
+
+.btn--ghost:active {
   transform: translateY(1px);
 }
 
@@ -125,18 +235,22 @@ button:active {
   flex-wrap: wrap;
 }
 
-/* 7. Filter layout */
-#filterSection > div {
-  display: flex;
+/* 9. Filter grid & cards */
+.filter-grid {
+  display: grid;
   gap: var(--spacing);
-  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-bottom: var(--spacing);
 }
 
-#filterSection > div > div {
-  flex: 1 1 250px;
+.filter-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--spacing);
 }
 
-/* 8. Table */
+/* 10. Table */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -150,18 +264,18 @@ th, td {
 }
 
 thead th {
-  background-color: #f0f0f5;
+  background-color: #F0F0F5;
   position: relative;
   cursor: pointer;
   user-select: none;
 }
 
 tbody tr:nth-child(even) {
-  background-color: #fafafa;
+  background-color: #FAFAFA;
 }
 
 tbody tr:hover {
-  background-color: #f0f0f5;
+  background-color: #F0F0F5;
 }
 
 th[data-col]::after {
@@ -172,7 +286,7 @@ th[data-col]::after {
   color: var(--subtext-color);
 }
 
-/* 9. Pagination */
+/* 11. Pagination */
 .pagination {
   display: flex;
   justify-content: center;
@@ -181,18 +295,20 @@ th[data-col]::after {
 }
 
 .pagination button {
-  background-color: #fff;
+  padding: 0.4rem 0.75rem;
+  background-color: var(--light-bg);
   color: var(--primary);
   border: 1px solid var(--primary);
+  border-radius: var(--radius);
 }
 
 .pagination button[disabled] {
   background-color: var(--primary);
-  color: #fff;
+  color: var(--text-light);
   cursor: default;
 }
 
-/* 10. Page size selector */
+/* 12. Page-size selector */
 .page-size {
   display: flex;
   align-items: center;
@@ -205,5 +321,20 @@ th[data-col]::after {
   width: auto;
 }
 
-/* 11. Print override (move to print.css) */
-/* Move your @media print rules into a separate print.css as linked above. */
+/* 13. Utility classes */
+.is-hidden {
+  display: none !important;
+}
+
+/* 14. Print overrides (move to print.css) */
+/* Put your @media print rules in a separate print.css */
+
+/* 15. Typewriter keyframes */
+@keyframes typing {
+  from { width: 0; }
+  to   { width: 35ch; }
+}
+
+@keyframes blink-caret {
+  50% { border-color: transparent; }
+}

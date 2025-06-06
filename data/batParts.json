@@ -213,6 +213,20 @@
     "conditionalParts": []
   },
   {
+    "brand": "fronius",
+    "model": "fronius reserva 3.15kwh battery module",
+    "sku": "4.240.371",
+    "requiredParts": [
+      {
+        "sku": "4.240.371",
+        "name": "Fronius Reserva BMS",
+        "quantity": 1,
+        "per_module": false
+      }
+    ],
+    "conditionalParts": []
+  },
+  {
     "brand": "givenergy",
     "model": "givenergy 9.5kwh li-ion battery - gen 3",
     "sku": "giv-bat9.5 g3",
@@ -499,5 +513,106 @@
         "max_modules": 3
       }
     ]
+  },
+  {
+    "brand": "sigenergy",
+    "model": "sigenergy sigenstor battery 5.0kwh with led",
+    "sku": "sig-11130002",
+    "requiredParts": [
+      {
+        "sku": "SIG-30020001",
+        "name": "Sigenergy SigenStor Installation Kit for Ground-mounted",
+        "quantity": 1,
+        "per_module": false
+      }
+    ],
+    "conditionalParts": [
+      {
+        "sku": "SIG-30020002",
+        "name": "(optional in replacement of ground mount up to 2 modules) Sigenergy SigenStor Installation Kit for Wall-mounted",
+        "quantity": 1,
+        "per_module": false,
+        "min_modules": 1,
+        "max_modules": 2
+      }
+    ]
+  },
+  {
+    "brand": "sigenergy",
+    "model": "sigenergy sigenstor battery 8.0kwh with led",
+    "sku": "sig-11130001",
+    "requiredParts": [
+      {
+        "sku": "SIG-30020001",
+        "name": "Sigenergy SigenStor Installation Kit for Ground-mounted",
+        "quantity": 1,
+        "per_module": false
+      }
+    ],
+    "conditionalParts": [
+      {
+        "sku": "SIG-30020002",
+        "name": "(optional in replacement of ground mount up to 2 modules) Sigenergy SigenStor Installation Kit for Wall-mounted",
+        "quantity": 1,
+        "per_module": false,
+        "min_modules": 1,
+        "max_modules": 2
+      }
+    ]
+  },
+  {
+    "brand": "sigenergy",
+    "model": "sigenergy sigenstor battery 10.0kwh with led_not avilible yet",
+    "sku": "sig-11130012",
+    "requiredParts": [
+      {
+        "sku": "SIG-30020001",
+        "name": "Sigenergy SigenStor Installation Kit for Ground-mounted",
+        "quantity": 1,
+        "per_module": false
+      }
+    ],
+    "conditionalParts": [
+      {
+        "sku": "SIG-30020002",
+        "name": "(optional in replacement of ground mount up to 2 modules) Sigenergy SigenStor Installation Kit for Wall-mounted",
+        "quantity": 1,
+        "per_module": false,
+        "min_modules": 1,
+        "max_modules": 2
+      }
+    ]
+  },
+  {
+    "brand": "tesla",
+    "model": "tesla powerwall 3 expansion",
+    "sku": "tesla-1807000-20-b",
+    "requiredParts": [
+      {
+        "sku": "TESLA-1875157-05-D",
+        "name": "Tesla Expansion Harness 0.5m",
+        "quantity": 1,
+        "per_module": true
+      },
+      {
+        "sku": "TESLA-1978070-00-B",
+        "name": "Tesla Accessories PW3 - Multi PW Stacking Kit",
+        "quantity": 1,
+        "per_module": true
+      },
+      {
+        "sku": "Mounting Option",
+        "name": "in replacement of Stacking Kit - TESLA-1978069-00-C Tesla PW3 Expansion - Wall Mounting Bracket + TESLA-1763418-01-C Tesla PW3 Glass Door",
+        "quantity": 1,
+        "per_module": false
+      },
+      {
+        "sku": "Harness Option",
+        "name": "in replacement of 0.5M Harness - TESLA-1875157-20-D - Tesla Expansion Harness 2m or TESLA-1875157-40-D Tesla Expansion Harness 4m",
+        "quantity": 1,
+        "per_module": false
+      }
+    ],
+    "conditionalParts": []
   }
 ]
