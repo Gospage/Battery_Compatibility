@@ -145,14 +145,18 @@ function updateAllFilters() {
     batModel: new Set()
   };
 
-  function phaseMatches(filterPhase, modelText) {
-    if (!filterPhase) return true;
-    if (filterPhase === 'single')
-      return /(single phase|1[- ]phase)/i.test(modelText);
-    if (filterPhase === 'three')
-      return /(three phase|3[- ]phase)/i.test(modelText);
-    return true;
-  }
+  /**
+ * @param {'single'|'three'|''} filterPhase  the dropdown value
+ * @param {string} entryPhase                the e.invPhase from your JSON
+ * @returns {boolean}
+ */
+function phaseMatches(filterPhase, entryPhase) {
+  if (!filterPhase) return true;
+  if (filterPhase === 'single') return entryPhase === '1';
+  if (filterPhase === 'three')  return entryPhase === '3';
+  return false;
+}
+
 
   compatibility.forEach(e => {
   // ─── gather every battery brand/model for this entry ───
@@ -170,10 +174,10 @@ function updateAllFilters() {
   }
     // ───── Inverter dropdowns ─────
      // ───── Inverter-Make dropdown ─────
-  if (
+ if (
     (!sel.invModel || e.invModel === sel.invModel) &&
     (!sel.invKW    || +e.invKW   === +sel.invKW) &&
-    (!sel.invPhase || phaseMatches(sel.invPhase, e.invModel)) &&
+    (!sel.invPhase || phaseMatches(sel.invPhase, e.invPhase)) &&
     (!sel.batBrand || allBatBrands.includes(sel.batBrand)) &&
     (!sel.batModel || allBatModels.includes(sel.batModel))
   ) {
@@ -184,7 +188,7 @@ function updateAllFilters() {
   if (
     (!sel.invBrand || e.invBrand === sel.invBrand) &&
     (!sel.invKW    || +e.invKW   === +sel.invKW) &&
-    (!sel.invPhase || phaseMatches(sel.invPhase, e.invModel)) &&
+    (!sel.invPhase || phaseMatches(sel.invPhase, e.invPhase)) &&
     (!sel.batBrand || allBatBrands.includes(sel.batBrand)) &&
     (!sel.batModel || allBatModels.includes(sel.batModel))
   ) {
@@ -195,7 +199,7 @@ function updateAllFilters() {
   if (
     (!sel.invBrand || e.invBrand === sel.invBrand) &&
     (!sel.invModel || e.invModel === sel.invModel) &&
-    (!sel.invPhase || phaseMatches(sel.invPhase, e.invModel)) &&
+    (!sel.invPhase || phaseMatches(sel.invPhase, e.invPhase)) &&
     (!sel.batBrand || allBatBrands.includes(sel.batBrand)) &&
     (!sel.batModel || allBatModels.includes(sel.batModel))
   ) {
@@ -240,7 +244,7 @@ if (
   (!sel.invBrand || e.invBrand === sel.invBrand) &&
   (!sel.invModel || e.invModel === sel.invModel) &&
   (!sel.invKW    || +e.invKW   === +sel.invKW) &&
-  (!sel.invPhase || phaseMatches(sel.invPhase, e.invModel))
+  (!sel.invPhase || phaseMatches(sel.invPhase, e.invPhase))
 ) {
   // single-type battery
   if (e.batBrand && e.batModel && (!sel.batBrand || e.batBrand === sel.batBrand)) {
@@ -400,6 +404,18 @@ if (fBM || fBModel) {
   // 3) Reset pagination & render
   currentPage = 1;
   renderTable();
+
+
+ // 4a) Inverter Phase dropdown
+  const ph = document.getElementById('invPhase');
+  ph.innerHTML =
+    '<option value="">--Any Phase--</option>' +
+    '<option value="single">Single Phase</option>' +
+    '<option value="three">Three Phase</option>';
+  ph.onchange = updateAllFilters;
+
+
+
 
   // 4) **NEW**: scroll smoothly to the results section
   const resultsSection = document.getElementById('resultsSection');

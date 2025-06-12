@@ -814,5 +814,132 @@
         "per_module": false
       }
     ]
+  },
+  {
+    "brand": "solaredge",
+    "model": "50kw pcs050",
+    "sku": "pcs050-rw-400v-a01-01",
+    "parts": [
+      {
+        "sku": "ONE-CLC1-RWWB0-P",
+        "name": "SolarEdge ONE Controller for C&I",
+        "quantity": 1,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "sigenergy",
+    "model": "sigen pv (50-125)m1-hya",
+    "sku": "sig-11010131",
+    "parts": [
+      {
+        "sku": "SIG-1426000200",
+        "name": "Sensor - Three Phase-CT300-DH",
+        "quantity": 1,
+        "per_module": false
+      },
+      {
+        "sku": "Gateway",
+        "name": "Optional instead of sensor",
+        "quantity": 0,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "sigenergy",
+    "model": "sigen pv (50-125)m1-hya",
+    "sku": "sig-11010132",
+    "parts": [
+      {
+        "sku": "SIG-1426000200",
+        "name": "Sensor - Three Phase-CT300-DH",
+        "quantity": 1,
+        "per_module": false
+      },
+      {
+        "sku": "Gateway",
+        "name": "Optional instead of sensor",
+        "quantity": 0,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "sigenergy",
+    "model": "sigen pv (50-125)m1-hya",
+    "sku": "sig-11010133",
+    "parts": [
+      {
+        "sku": "SIG-1426000200",
+        "name": "Sensor - Three Phase-CT300-DH",
+        "quantity": 1,
+        "per_module": false
+      },
+      {
+        "sku": "Gateway",
+        "name": "Optional instead of sensor",
+        "quantity": 0,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "sigenergy",
+    "model": "sigen pv (50-125)m1-hya",
+    "sku": "sig-11010134",
+    "parts": [
+      {
+        "sku": "SIG-1426000200",
+        "name": "Sensor - Three Phase-CT300-DH",
+        "quantity": 1,
+        "per_module": false
+      },
+      {
+        "sku": "Gateway",
+        "name": "Optional instead of sensor",
+        "quantity": 0,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "sigenergy",
+    "model": "sigen pv (50-125)m1-hya",
+    "sku": "sig-11010135",
+    "parts": [
+      {
+        "sku": "SIG-1426000200",
+        "name": "Sensor - Three Phase-CT300-DH",
+        "quantity": 1,
+        "per_module": false
+      },
+      {
+        "sku": "Gateway",
+        "name": "Optional instead of sensor",
+        "quantity": 0,
+        "per_module": false
+      }
+    ]
+  },
+  {
+    "brand": "sigenergy",
+    "model": "sigen pv (50-125)m1-hya",
+    "sku": "sig-11010136",
+    "parts": [
+      {
+        "sku": "SIG-1426000200",
+        "name": "Sensor - Three Phase-CT300-DH",
+        "quantity": 1,
+        "per_module": false
+      },
+      {
+        "sku": "Gateway",
+        "name": "Optional instead of sensor",
+        "quantity": 0,
+        "per_module": false
+      }
+    ]
   }
 ]

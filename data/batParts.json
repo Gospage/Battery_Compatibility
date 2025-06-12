@@ -377,7 +377,7 @@
       {
         "sku": "Design Note",
         "name": "CAN/RS-485 lead to the inverter _ extended power leeds may be required",
-        "quantity": 1,
+        "quantity": 0,
         "per_module": false,
         "min_modules": 1,
         "max_modules": 16
@@ -406,7 +406,7 @@
       {
         "sku": "Design Note",
         "name": "CAN/RS-485 lead to the inverter _ extended power leeds may be required",
-        "quantity": 1,
+        "quantity": 0,
         "per_module": false,
         "min_modules": 1,
         "max_modules": 16
@@ -614,5 +614,101 @@
       }
     ],
     "conditionalParts": []
+  },
+  {
+    "brand": "solaredge",
+    "model": "css-od battery cabinet",
+    "sku": "css-ou-o1-20-ca-b01-01",
+    "requiredParts": [],
+    "conditionalParts": [
+      {
+        "sku": "CSS-O1-C-B01-01",
+        "name": "SolarEdge Cabling Extension Kit",
+        "quantity": 1,
+        "per_module": false,
+        "min_modules": 2,
+        "max_modules": 2
+      }
+    ]
+  },
+  {
+    "brand": "sigenergy",
+    "model": "sigenstack bat 12.0",
+    "sku": "sig-11130014",
+    "requiredParts": [],
+    "conditionalParts": [
+      {
+        "sku": "SIG-11140003",
+        "name": "SigenStack BC M2-0.5C-BST",
+        "quantity": 1,
+        "per_module": false,
+        "min_modules": 1,
+        "max_modules": 19
+      },
+      {
+        "sku": "SIG-11140001",
+        "name": "SigenStack BC M2-0.5C",
+        "quantity": 1,
+        "per_module": false,
+        "min_modules": 20,
+        "max_modules": 21
+      },
+      {
+        "sku": "SIG-11180002",
+        "name": "SigenStack Base MAIN-0.5C",
+        "quantity": 1,
+        "per_module": false,
+        "min_modules": 4,
+        "max_modules": 18
+      },
+      {
+        "sku": "SIG-11180005",
+        "name": "SigenStack Base SUB-0.5C",
+        "quantity": 1,
+        "per_module": false,
+        "min_modules": 7,
+        "max_modules": 12
+      },
+      {
+        "sku": "SIG-11180005",
+        "name": "SigenStack Base SUB-0.5C",
+        "quantity": 2,
+        "per_module": false,
+        "min_modules": 13,
+        "max_modules": 18
+      },
+      {
+        "sku": "SIG-11180004",
+        "name": "SigenStack Base 4S-0.5C",
+        "quantity": 1,
+        "per_module": false,
+        "min_modules": 19,
+        "max_modules": 21
+      },
+      {
+        "sku": "SIG-11180003",
+        "name": "SigenStack Cover",
+        "quantity": 1,
+        "per_module": false,
+        "min_modules": 7,
+        "max_modules": 12
+      },
+      {
+        "sku": "SIG-11180003",
+        "name": "SigenStack Cover",
+        "quantity": 2,
+        "per_module": false,
+        "min_modules": 13,
+        "max_modules": 18
+      },
+      {
+        "sku": "SIG-11180003",
+        "name": "SigenStack Cover",
+        "quantity": 3,
+        "per_module": false,
+        "min_modules": 19,
+        "max_modules": 21
+      }
+    ]
   }
 ]
