@@ -214,9 +214,10 @@ function phaseMatches(filterPhase, entryPhase) {
     (!sel.batBrand || allBatBrands.includes(sel.batBrand)) &&
     (!sel.batModel || allBatModels.includes(sel.batModel))
   ) {
-    if (/(single phase|1[- ]phase)/i.test(e.invModel)) valid.invPhase.add('single');
-    if (/(three phase|3[- ]phase)/i.test(e.invModel)) valid.invPhase.add('three');
-  }
+  // e.invPhase is "1" or "3" in your data
+  if (e.invPhase === '1') valid.invPhase.add('single');
+  if (e.invPhase === '3') valid.invPhase.add('three');
+}
 
 
     // ───── Battery-Make dropdown ─────
@@ -287,20 +288,18 @@ if (
     if (valid.invKW.has(+old)) el.value = old;
   }
 
-  {
-    const el = document.getElementById('invPhase'),
-          old = sel.invPhase;
-    el.querySelectorAll('option').forEach(o => {
-      if (!o.value) return;
-      o.disabled = !valid.invPhase.has(o.value);
-    });
-    if (!valid.invPhase.has(old)) el.value = '';
-  }
-
-  rebuild(document.getElementById('batMake'),  valid.batBrand,  sel.batBrand,  '--Any--');
-  rebuild(document.getElementById('batModel'), valid.batModel,  sel.batModel,  '--Any--');
+ // ───── Rebuild the phase dropdown ─────
+const phaseEl   = document.getElementById('invPhase');
+const prevPhase = sel.invPhase;
+phaseEl.innerHTML = '';                                       // clear out old options
+phaseEl.append(new Option('--Any Phase--', ''));              // blank choice
+if (valid.invPhase.has('single'))                            // only if any entries
+  phaseEl.append(new Option('Single Phase', 'single'));
+if (valid.invPhase.has('three'))
+  phaseEl.append(new Option('Three Phase', 'three'));
+// restore previous selection if still valid
+if (valid.invPhase.has(prevPhase)) phaseEl.value = prevPhase;
 }
-
 
 // Apply all filters and rebuild the table
 function applyFilters() {
