@@ -225,7 +225,7 @@ function phaseMatches(filterPhase, entryPhase) {
       (!sel.invBrand || e.invBrand === sel.invBrand) &&
       (!sel.invModel || e.invModel === sel.invModel) &&
       (!sel.invKW    || +e.invKW   === +sel.invKW) &&
-      (!sel.invPhase || phaseMatches(sel.invPhase, e.invModel)) &&
+      (!sel.invPhase || phaseMatches(sel.invPhase, e.invPhase)) &&
       (!sel.batModel || e.batModel === sel.batModel)
     ) {
       // legacy field
@@ -276,8 +276,28 @@ if (
   }
 
   // Rebuild each filter
-  rebuild(document.getElementById('invMake'),  valid.invBrand,   sel.invBrand,  '--Any--');
-  rebuild(document.getElementById('invModel'), valid.invModel,  sel.invModel, '--Any--');
+rebuild(
+  document.getElementById('batMake'),
+  valid.batBrand,
+  sel.batBrand,
+  '--Any--'
+);
+
+// Rebuild battery‐model
+rebuild(
+  document.getElementById('batModel'),
+  valid.batModel,
+  sel.batModel,
+  '--Any--'
+);
+
+// Rebuild inverter‐model dropdown
+  rebuild(
+    document.getElementById('invModel'),
+    valid.invModel,
+    sel.invModel,
+    '--Any Model--'
+  );
 
   {
     const el = document.getElementById('invKW'),
